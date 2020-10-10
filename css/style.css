@@ -2,16 +2,12 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family: 'Open Sans';
+	font-family: 'Saira Condensed', sans-serif;
 }
 
 html,body{
 	height: 100%;
-}
-
-body{
-	background-color: #ccc;
-}
+}	
 
 .parent{
 	display: flex;
@@ -23,7 +19,7 @@ body{
 	top: 0;
 	height: 100%;
 	width: 20%;
-	background-color: #333;
+	background-color: rgb(17, 30, 56);
 }
 
 .sidebarContent{
@@ -38,17 +34,23 @@ body{
 .imgAvatar img{
 	width: 80%;
 	border-radius: 50%;
-	border: 5px solid #8b8b8b;
+	border: 8px solid rgb(53, 71, 107);
 }
-
-.menu a{
-	display: block;
+.menu{
 	text-align: center;
-	text-decoration: none;
+	margin: 20px 0;
+}
+.menu a.selected{
+				opacity: 1;	
+}
+.menu a{
 	color: white;
-	font-size: 24px;
+    opacity: 0.4;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
 	font-family: 'Saira Condensed';
-	padding-top: 10px;
 }
 
 .content{	
@@ -67,8 +69,19 @@ section.conteudo{
 	
 }
 section.conteudo h2{
+	font-size: 46px;
 	margin-bottom: 20px;
 }
+section.conteudo h3{
+	margin: 15px 0;
+	font-size: 26px;
+	color: #6c757d;
+}
 section.conteudo p{
-	padding: 14px 0;
+	color: #6c757d;
+    font-size: 20px;
+    margin-top: 10px;
+}
+span{
+	color: rgb(33, 89, 199);
 }
